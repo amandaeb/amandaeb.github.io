@@ -473,8 +473,6 @@ section{
 }
 footer{
      background-color:hsl(158, 54%, 66%);
-    grid-column:1;
-    grid-row:3;
     display:grid;
     align-items: center;
     align-content: center;
