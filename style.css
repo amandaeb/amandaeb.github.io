@@ -482,6 +482,11 @@ footer{
     box-shadow:inset 0 0 10px 2px hsl(158, 36%, 37%);
     text-align:center;
 }
+
+footer a{
+    color:var(--dark-text);
+    font-size:2rem;
+}
 @media(min-width:500px){
     .all-projects video{
         max-width:600px;
