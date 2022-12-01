@@ -470,3 +470,8 @@ section{
 .all-projects video{
     width:100%;
 }
+@media(min-width:500px){
+    .all-projects video{
+        max-width:600px;
+    }
+}
