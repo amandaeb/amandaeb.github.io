@@ -144,7 +144,7 @@ let benchShadowTwoAnim = gsap.fromTo(benchShadowTwo,
 );
 let roofAnim =  gsap.fromTo(roof, 
     {x:-1000},
-    {x:200,
+    {x:800,
         delay:1.2,
         ease:"slow (0.7,0.7, false)"
     }
