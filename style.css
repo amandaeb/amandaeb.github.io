@@ -469,9 +469,24 @@ section{
 
 .all-projects video{
     width:100%;
+    margin-bottom:2rem;
+}
+footer{
+     background-color:hsl(158, 54%, 66%);
+    grid-column:1;
+    grid-row:3;
+    display:grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding:1rem;
+    gap:1rem;
+    box-shadow:inset 0 0 10px 2px hsl(158, 36%, 37%);
+    text-align:center;
 }
 @media(min-width:500px){
     .all-projects video{
         max-width:600px;
+     
     }
 }
