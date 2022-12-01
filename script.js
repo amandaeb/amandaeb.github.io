@@ -89,7 +89,7 @@ gsap.set(building, {
 })
 let roadAnim = gsap.fromTo(road,
     {x:-400},
-    {x:220,
+    {x:10,
         ease:"slow (0.7,0.7, false)"
     }
 );
