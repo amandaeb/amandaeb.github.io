@@ -23,7 +23,6 @@ body{
     font-family:'Mukta',sans-serif;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows:auto auto auto auto auto auto auto auto;
 }
 
 header{
@@ -173,10 +172,16 @@ nav a:hover{
 section{
     margin:2rem auto;
 }
+.java-section{
+    grid-row:4;
+}
+.graphic-section{
+    grid-row:5;
+}
 /**********mobile main section********/
 /**********email section********/
 .email-section{
-    grid-row:4;
+    grid-row:6;
     grid-column:1;
     width:100%;
     display:grid;
@@ -370,7 +375,7 @@ section{
 }
 /**********animation section********/
 .animation-section{
-    grid-row:5;
+    grid-row:7;
     grid-column:1;
     width:100%;
     display:grid;
@@ -464,7 +469,7 @@ section{
 }
 /**********all projects********/
 .all-projects{
-    grid-row:6;
+    grid-row:8;
 }
 
 .all-projects video{
