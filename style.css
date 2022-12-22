@@ -175,8 +175,15 @@ section{
 .java-section{
     grid-row:4;
 }
+.java-section li{
+    list-style-type:none;
+}
 .graphic-section{
     grid-row:5;
+}
+
+.graphic-section li{
+    list-style-type:none;
 }
 .graphic-carousel img{
     width:200px;
