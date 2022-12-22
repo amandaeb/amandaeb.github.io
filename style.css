@@ -178,6 +178,8 @@ section{
 .graphic-section{
     grid-row:5;
 }
+.graphic-carousel img{
+    width:200px;
 /**********mobile main section********/
 /**********email section********/
 .email-section{
